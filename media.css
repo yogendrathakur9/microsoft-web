@@ -1,0 +1,125 @@
+
+@media (max-width:768px) {
+    .navleft ul{
+        display: none;
+    }
+   .navleft{
+    display: none;
+   }
+   .navright{
+    display: none;
+   }
+/* navbar at 768px */
+ .nav768{
+    width: 100vw;
+    height: auto;
+    font-size: 3vw;
+    background-color:white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .nav768 i {
+    padding: 10px;
+ }
+
+/* Hero section at 768 */
+.Hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:column-reverse;
+    background-size: cover;
+}
+.Hero-img{
+    width: 100%;
+    height: 100%;
+   
+}
+.Hero-text{
+    width: 100%;
+}
+.Hero-text button{
+    width: 20%;
+}
+.Hero-section br:nth-child(1)  {
+    display: none;
+}
+/* section-3 media at 768px */
+.sec-3{
+    width: 100%;
+}
+.sec-3g{
+   width: 100%;
+   height: auto;
+}
+.sec-3g img{
+    width: 100%;
+    /* margin-bottom: 55px; */
+}
+/* section-4 media at 768px */
+
+.section-4{
+    width: 100%;
+height: auto;
+display: flex;
+
+flex-direction: column;
+
+}
+.sec-4img{
+    position: static;
+    height: 60vh;
+
+    padding-top: 20px;
+}
+.sec-4text{
+    width: 100%;
+ z-index: none;
+margin: 0;
+/* padding: 90px; */
+height: auto;
+background-color: #FFFFFF;
+
+}
+/* section-5 media 768px */
+
+.sec-5{
+    width: 100%;
+}
+.sec-5g{
+   width: 100%;
+   height: auto;
+}
+.sec-5g img{
+    width: 100%;
+    /* margin-bottom: 55px; */
+}
+.sec-5icon{
+    width: 100%;
+ left: 3%;
+ justify-content: flex-start;
+}
+
+/* section-6 media  */
+
+.lists{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0%;
+}
+/* footer media */
+.footer{
+width: 100%;
+}
+.footer-left{
+    width: 20%;
+}
+.footer-right{
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+
+}
+}
